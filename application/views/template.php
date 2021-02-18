@@ -22,6 +22,9 @@
     <!-- Animation Css -->
     <link href="<?php echo base_url();?>assets/plugins/animate-css/animate.css" rel="stylesheet" />
 
+    <!-- Bootstrap Select Css -->
+    <link href="<?php echo base_url();?>assets/plugins/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
+
     <!-- Morris Chart Css-->
     <link href="<?php echo base_url();?>assets/plugins/morrisjs/morris.css" rel="stylesheet" />
 

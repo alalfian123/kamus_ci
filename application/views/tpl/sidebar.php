@@ -46,127 +46,127 @@
                             <span>Helper Classes</span>
                         </a>
                     </li>
-                    <li>
+                    <li  id="sb_widgets">
                         <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">widgets</i>
                             <span>Widgets</span>
                         </a>
                         <ul class="ml-menu">
-                            <li>
+                            <li  id="sb_cards">
                                 <a href="javascript:void(0);" class="menu-toggle">
                                     <span>Cards</span>
                                 </a>
                                 <ul class="ml-menu">
-                                    <li>
-                                        <a href="pages/widgets/cards/basic.html">Basic</a>
+                                    <li id="sb_cards_basic">
+                                        <a href="<?php echo base_url();?>widgets/cards_basic">Basic</a>
                                     </li>
-                                    <li>
-                                        <a href="pages/widgets/cards/colored.html">Colored</a>
+                                    <li id="sb_cards_colored">
+                                        <a href="<?php echo base_url();?>widgets/cards_colored">Colored</a>
                                     </li>
-                                    <li>
-                                        <a href="pages/widgets/cards/no-header.html">No Header</a>
+                                    <li id="sb_cards_noheader">
+                                        <a href="<?php echo base_url();?>widgets/cards_noheader">No Header</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li>
+                            <li id="sb_infobox"> 
                                 <a href="javascript:void(0);" class="menu-toggle">
                                     <span>Infobox</span>
                                 </a>
                                 <ul class="ml-menu">
-                                    <li>
-                                        <a href="pages/widgets/infobox/infobox-1.html">Infobox-1</a>
+                                    <li id="sb_infobox1">
+                                        <a href="<?php echo base_url();?>widgets/infobox_1">Infobox-1</a>
                                     </li>
-                                    <li>
-                                        <a href="pages/widgets/infobox/infobox-2.html">Infobox-2</a>
+                                    <li id="sb_infobox2">
+                                        <a href="<?php echo base_url();?>widgets/infobox_2">Infobox-2</a>
                                     </li>
-                                    <li>
-                                        <a href="pages/widgets/infobox/infobox-3.html">Infobox-3</a>
+                                    <li id="sb_infobox3">
+                                        <a href="<?php echo base_url();?>widgets/infobox_3">Infobox-3</a>
                                     </li>
-                                    <li>
-                                        <a href="pages/widgets/infobox/infobox-4.html">Infobox-4</a>
+                                    <li id="sb_infobox4">
+                                        <a href="<?php echo base_url();?>widgets/infobox_4">Infobox-4</a>
                                     </li>
-                                    <li>
-                                        <a href="pages/widgets/infobox/infobox-5.html">Infobox-5</a>
+                                    <li id="sb_infobox5">
+                                        <a href="<?php echo base_url();?>widgets/infobox_5">Infobox-5</a>
                                     </li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
-                    <li>
+                    <li id="sb_ui">
                         <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">swap_calls</i>
                             <span>User Interface (UI)</span>
                         </a>
                         <ul class="ml-menu">
-                            <li>
-                                <a href="pages/ui/alerts.html">Alerts</a>
+                            <li id="sb_ui_alerts">
+                                <a href="<?php echo base_url();?>User_interface/alerts">Alerts</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/animations.html">Animations</a>
+                            <li id="sb_ui_animations">
+                                <a href="<?php echo base_url();?>User_interface/animations">Animations</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/badges.html">Badges</a>
+                            <li id="sb_ui_badges">
+                                <a href="<?php echo base_url();?>User_interface/badges">Badges</a>
                             </li>
 
-                            <li>
-                                <a href="pages/ui/breadcrumbs.html">Breadcrumbs</a>
+                            <li id="sb_ui_breadcrumbs">
+                                <a href="<?php echo base_url();?>User_interface/breadcrumbs">Breadcrumbs</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/buttons.html">Buttons</a>
+                            <li id="sb_ui_buttons">
+                                <a href="<?php echo base_url();?>User_interface/buttons">Buttons</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/collapse.html">Collapse</a>
+                            <li id="sb_ui_collapse">
+                                <a href="<?php echo base_url();?>User_interface/collapse">Collapse</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/colors.html">Colors</a>
+                            <li id="sb_ui_alerts">
+                                <a href="<?php echo base_url();?>User_interface/colors">Colors</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/dialogs.html">Dialogs</a>
+                            <li id="sb_ui_dialogs">
+                                <a href="<?php echo base_url();?>User_interface/dialogs">Dialogs</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/icons.html">Icons</a>
+                            <li id="sb_ui_icons">
+                                <a href="<?php echo base_url();?>User_interface/icons">Icons</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/labels.html">Labels</a>
+                            <li id="sb_ui_labels">
+                                <a href="<?php echo base_url();?>User_interface/labels">Labels</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/list-group.html">List Group</a>
+                            <li id="sb_ui_list_grp">
+                                <a href="<?php echo base_url();?>User_interface/list-group">List Group</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/media-object.html">Media Object</a>
+                            <li id="sb_ui_media_obj">
+                                <a href="<?php echo base_url();?>User_interface/media-object">Media Object</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/modals.html">Modals</a>
+                            <li id="sb_ui_modals">
+                                <a href="<?php echo base_url();?>User_interface/modals">Modals</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/notifications.html">Notifications</a>
+                            <li id="sb_ui_notif">
+                                <a href="<?php echo base_url();?>User_interface/notifications">Notifications</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/pagination.html">Pagination</a>
+                            <li id="sb_ui_pagination">
+                                <a href="<?php echo base_url();?>User_interface/pagination">Pagination</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/preloaders.html">Preloaders</a>
+                            <li id="sb_ui_preloaders">
+                                <a href="<?php echo base_url();?>User_interface/preloaders">Preloaders</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/progressbars.html">Progress Bars</a>
+                            <li id="sb_ui_progres_bar">
+                                <a href="<?php echo base_url();?>User_interface/progressbars">Progress Bars</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/range-sliders.html">Range Sliders</a>
+                            <li id="sb_ui_range_slider">
+                                <a href="<?php echo base_url();?>User_interface/range-sliders">Range Sliders</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/sortable-nestable.html">Sortable & Nestable</a>
+                            <li id="sb_ui_sortable_nestable">
+                                <a href="<?php echo base_url();?>User_interface/sortable-nestable">Sortable & Nestable</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/tabs.html">Tabs</a>
+                            <li id="sb_ui_tabs">
+                                <a href="<?php echo base_url();?>User_interface/tabs">Tabs</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/thumbnails.html">Thumbnails</a>
+                            <li id="sb_ui_thumbnails">
+                                <a href="<?php echo base_url();?>User_interface/thumbnails">Thumbnails</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/tooltips-popovers.html">Tooltips & Popovers</a>
+                            <li id="sb_ui_tooltips_popover">
+                                <a href="<?php echo base_url();?>User_interface/tooltips-popovers">Tooltips & Popovers</a>
                             </li>
-                            <li>
-                                <a href="pages/ui/waves.html">Waves</a>
+                            <li id="sb_ui_waves">
+                                <a href="<?php echo base_url();?>User_interface/waves">Waves</a>
                             </li>
                         </ul>
                     </li>
