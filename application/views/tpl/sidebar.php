@@ -117,7 +117,7 @@
                             <li id="sb_ui_collapse">
                                 <a href="<?php echo base_url();?>User_interface/collapse">Collapse</a>
                             </li>
-                            <li id="sb_ui_alerts">
+                            <li id="sb_ui_colors">
                                 <a href="<?php echo base_url();?>User_interface/colors">Colors</a>
                             </li>
                             <li id="sb_ui_dialogs">
@@ -130,10 +130,10 @@
                                 <a href="<?php echo base_url();?>User_interface/labels">Labels</a>
                             </li>
                             <li id="sb_ui_list_grp">
-                                <a href="<?php echo base_url();?>User_interface/list-group">List Group</a>
+                                <a href="<?php echo base_url();?>User_interface/list_group">List Group</a>
                             </li>
                             <li id="sb_ui_media_obj">
-                                <a href="<?php echo base_url();?>User_interface/media-object">Media Object</a>
+                                <a href="<?php echo base_url();?>User_interface/media_object">Media Object</a>
                             </li>
                             <li id="sb_ui_modals">
                                 <a href="<?php echo base_url();?>User_interface/modals">Modals</a>
@@ -151,10 +151,10 @@
                                 <a href="<?php echo base_url();?>User_interface/progressbars">Progress Bars</a>
                             </li>
                             <li id="sb_ui_range_slider">
-                                <a href="<?php echo base_url();?>User_interface/range-sliders">Range Sliders</a>
+                                <a href="<?php echo base_url();?>User_interface/range_sliders">Range Sliders</a>
                             </li>
                             <li id="sb_ui_sortable_nestable">
-                                <a href="<?php echo base_url();?>User_interface/sortable-nestable">Sortable & Nestable</a>
+                                <a href="<?php echo base_url();?>User_interface/sortable_nestable">Sortable & Nestable</a>
                             </li>
                             <li id="sb_ui_tabs">
                                 <a href="<?php echo base_url();?>User_interface/tabs">Tabs</a>
@@ -163,36 +163,36 @@
                                 <a href="<?php echo base_url();?>User_interface/thumbnails">Thumbnails</a>
                             </li>
                             <li id="sb_ui_tooltips_popover">
-                                <a href="<?php echo base_url();?>User_interface/tooltips-popovers">Tooltips & Popovers</a>
+                                <a href="<?php echo base_url();?>User_interface/tooltips_popovers">Tooltips & Popovers</a>
                             </li>
                             <li id="sb_ui_waves">
                                 <a href="<?php echo base_url();?>User_interface/waves">Waves</a>
                             </li>
                         </ul>
                     </li>
-                    <li>
+                    <li id="sb_forms">
                         <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">assignment</i>
                             <span>Forms</span>
                         </a>
                         <ul class="ml-menu">
-                            <li>
-                                <a href="pages/forms/basic-form-elements.html">Basic Form Elements</a>
+                            <li id="sb_forms_basic">
+                                <a href="<?php echo base_url();?>forms/basic_form_elements">Basic Form Elements</a>
                             </li>
-                            <li>
-                                <a href="pages/forms/advanced-form-elements.html">Advanced Form Elements</a>
+                            <li id="sb_forms_advance">
+                                <a href="<?php echo base_url();?>forms/advanced_form_elements">Advanced Form Elements</a>
                             </li>
-                            <li>
-                                <a href="pages/forms/form-examples.html">Form Examples</a>
+                            <li id="sb_forms_examples">
+                                <a href="<?php echo base_url();?>forms/form_examples">Form Examples</a>
                             </li>
-                            <li>
-                                <a href="pages/forms/form-validation.html">Form Validation</a>
+                            <li id="sb_forms_validation">
+                                <a href="<?php echo base_url();?>forms/form_validation">Form Validation</a>
                             </li>
-                            <li>
-                                <a href="pages/forms/form-wizard.html">Form Wizard</a>
+                            <li id="sb_forms_wizard">
+                                <a href="<?php echo base_url();?>forms/form_wizard">Form Wizard</a>
                             </li>
-                            <li>
-                                <a href="pages/forms/editors.html">Editors</a>
+                            <li id="sb_forms_editors">
+                                <a href="<?php echo base_url();?>forms/editors">Editors</a>
                             </li>
                         </ul>
                     </li>

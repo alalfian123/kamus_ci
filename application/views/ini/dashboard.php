@@ -1,5 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');?>
 
+<script src="<?php echo base_url();?>assets/js/pages/index.js"></script>
 <?php $this->load->view('tpl/header'); ?>  
 <?php $this->load->view('tpl/sidebar'); ?>  
 

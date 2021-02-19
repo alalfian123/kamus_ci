@@ -66,8 +66,8 @@ class User_interface extends CI_Controller {
 		$this->template->load('template','ui/notifications');
     }
 
-    public function paginations(){
-		$this->template->load('template','ui/paginations');
+    public function pagination(){
+		$this->template->load('template','ui/pagination');
     }
 
     public function preloaders(){
@@ -95,7 +95,7 @@ class User_interface extends CI_Controller {
     }
 
     public function tooltips_popovers(){
-		$this->template->load('template','ui/tootltips-popovers');
+		$this->template->load('template','ui/tooltips-popovers');
     }
 
     public function waves(){
